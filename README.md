@@ -3,7 +3,7 @@ heatmeter custom sensor for home assistant
 
 ### Getting started
 
-* Add sensor.py to the Home Assistant config\custom_components\heatmeter directory
+* Add sensor.py, __init__.py and manifest.json to the Home Assistant config\custom_components\heatmeter directory
 
 #### Home Assistant Example
 
