@@ -1,0 +1,8 @@
+{
+  "domain": "heatmeter",
+  "name": "Heatmeter BBQ controller sensor",
+  "documentation": "https://github.com/fancygaphtrn/heatmeter",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": []
+}
