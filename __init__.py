@@ -1,0 +1,1 @@
+"""Heatmeter BBQ sensor"""
