@@ -1,0 +1,6 @@
+set_temperature:
+  description: Set smoker temperature setpoint.
+  fields:
+    temperature: 
+      description: 'New setpoint temperature'
+      example: 'temperature: 170'
