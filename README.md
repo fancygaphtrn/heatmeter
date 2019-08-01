@@ -1,5 +1,5 @@
-# heatmeter
-heatmeter custom sensor for home assistant
+# heatmeter smoker controller
+heatmeter smoker controller custom sensor for home assistant
 
 ### Getting started
 
