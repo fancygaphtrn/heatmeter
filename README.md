@@ -67,5 +67,15 @@ ui-lovelace.yaml
 
 ```
 
+#### Debug
+...
+To set the log level to debug add debug to the configuration.yaml
+
+logger:
+  default: info
+    custom_components.heatmeter: debug
+...
+
+
 ### References
 Support for reading Heatmeter data. See https://store.heatermeter.com/
