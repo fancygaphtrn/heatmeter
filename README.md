@@ -1,5 +1,5 @@
 # heatmeter smoker controller
-heatmeter smoker controller custom sensor for home assistant
+heatmeter smoker controller custom sensor for home assistant. This code supports V1.3 of the Heatermeter API.
 
 ### Getting started
 
