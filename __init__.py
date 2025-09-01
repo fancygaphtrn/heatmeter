@@ -13,6 +13,7 @@ heatmeter:
 import logging
 import requests
 import homeassistant.helpers.config_validation as cv
+from homeassistant.helpers.discovery import load_platform
 import voluptuous as vol
 from homeassistant.const import (
         CONF_USERNAME, CONF_PASSWORD, CONF_HOST, CONF_PORT
@@ -90,7 +91,7 @@ def setup(hass, config):
 
     hass.services.register(DOMAIN, 'set_temperature', handle_setpoint)
 
-    hass.helpers.discovery.load_platform('sensor', DOMAIN, {}, config)
+    load_platform(hass, 'sensor', DOMAIN, {}, config)
 
     # Return boolean to indicate that initialization was successfully.
     return True
